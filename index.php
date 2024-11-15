@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIENTERAJA.XYZ - Mengubah Dunia dengan Inovasi Teknologi dan Kreasi Tanpa Batas</title>
+
+    <meta name="description" content="DIENTERAJA.XYZ mengubah dunia dengan inovasi teknologi dan kreasi tanpa batas, menciptakan solusi berkelanjutan yang relevan dan berdampak positif di masa depan. Platform ini mendukung eksperimen kreatif dan kolaborasi lintas disiplin untuk menghadirkan ide-ide segar yang memajukan teknologi dan kreativitas.">
+
+    <meta name="keywords" content="inovasi teknologi, kreasi tanpa batas, platform inovasi, teknologi kreatif, solusi berkelanjutan, eksperimen kreatif, kolaborasi teknologi dan seni">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DIENTERAJA.XYZ - Mengubah Dunia dengan Inovasi Teknologi dan Kreasi Tanpa Batas">
+    <meta property="og:description" content="DIENTERAJA.XYZ mengubah dunia dengan inovasi teknologi dan kreasi tanpa batas, menciptakan solusi berkelanjutan yang relevan dan berdampak positif di masa depan. Platform ini mendukung eksperimen kreatif dan kolaborasi lintas disiplin.">
+    <meta property="og:image" content="URL_TO_YOUR_IMAGE">
+    <meta property="og:url" content="https://www.dienteraja.xyz">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DIENTERAJA.XYZ - Mengubah Dunia dengan Inovasi Teknologi dan Kreasi Tanpa Batas">
+    <meta name="twitter:description" content="DIENTERAJA.XYZ mengubah dunia dengan inovasi teknologi dan kreasi tanpa batas, menciptakan solusi berkelanjutan yang relevan dan berdampak positif di masa depan. Platform ini mendukung eksperimen kreatif dan kolaborasi lintas disiplin.">
+    <meta name="twitter:image" content="URL_TO_YOUR_IMAGE">
+    <meta name="twitter:url" content="https://www.dienteraja.xyz">
+
+    <link rel="canonical" href="https://www.dienteraja.xyz">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/dienteraja.ico">
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-image: linear-gradient(rgba(1, 143, 219, 0.8), rgba(255, 255, 255, 0.2)),
+                url('assets/img/dienteraja-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-wrapper {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .content {
+            text-align: justify;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bolder;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9;
+        }
+        h3{
+            font-size:1rem;
+            text-shadow: 0 1px 0 #ccc;            
+            margin-bottom: 30px;
+        }
+        strong{
+            text-shadow: 1px 2px 0px 0px #ccc;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 content">
+                    <h1 class="text-center">DIENTERAJA.XYZ</h1>
+                    <p class="text-center">
+                        <img src="assets/img/dienteraja-transparent.png" alt="Platform Inovasi Teknologi DIENTERAJA.XYZ" class="img-fluid w-25">
+                    </p>
+                    <h3 class="text-center fw-bolder">
+                        Mengubah Dunia dengan Inovasi Teknologi dan Kreasi Tanpa Batas
+                    </h3>
+                    <p>
+                        <strong>DIENTERAJA.XYZ</strong> mencerminkan komitmen terhadap inovasi dan kemajuan berkelanjutan dalam dunia teknologi dan kreativitas. "Dien," yang dalam bahasa Arab berarti "jalan hidup," menggambarkan perjalanan tanpa henti menuju perkembangan. Konsep ini mengajak setiap individu untuk terus beradaptasi dengan perubahan teknologi yang pesat, berfokus pada penciptaan solusi yang relevan dan berdampak positif di masa depan. Dengan semangat ini, <strong>DIENTERAJA.XYZ</strong> menjadi representasi dari upaya untuk mewujudkan ide-ide yang mampu mendorong batasan teknologi yang ada.
+                    </p>
+                    <p>
+                        Kata "Teraja" menegaskan pentingnya eksperimen dan tindakan dalam menciptakan perubahan. Dalam dunia teknologi, eksperimen menjadi kunci utama untuk menggali potensi baru dan merumuskan solusi yang lebih baik. <strong>DIENTERAJA.XYZ</strong> berperan sebagai platform yang mendukung pengembangan ide-ide kreatif, memberikan ruang bagi para inovator untuk mengekspresikan ide-ide segar dan menghadirkan produk yang dapat mengubah cara kita berinteraksi dengan teknologi. Dengan pendekatan berbasis eksperimen, setiap langkah yang diambil memiliki potensi untuk menciptakan dampak yang signifikan.
+                    </p>
+                    <p>
+                        Ekstensi <strong>.xyz</strong> menambah dimensi fleksibilitas dan kebebasan dalam mengeksplorasi berbagai kemungkinan tanpa batasan. Sebagai ekstensi yang terbuka, <strong>.xyz</strong> memungkinkan beragam ide untuk berkembang di luar kategori konvensional. Ini menciptakan kesempatan untuk kolaborasi lintas disiplin, menghubungkan teknologi, desain, dan seni digital dalam satu kesatuan yang harmonis. <strong>DIENTERAJA.XYZ</strong> menjadi simbol ruang dinamis yang mengajak semua pihak untuk berinovasi dan berkreasi, membawa perubahan yang nyata dan inklusif dalam dunia teknologi dan kreativitas.
+                    </p>
+                    <footer>
+                        <p class="mt-5 mb-0 small">&copy; 2024 DIENTERAJA.XYZ. All Rights Reserved.</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
