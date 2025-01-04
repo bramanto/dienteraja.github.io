@@ -122,7 +122,7 @@ $(window).on('load', function(){
 				  <h3 class="blog-title">
 					<a href="javascript:;">${item.nama}</a>
 				  </h3>
-				  <a href="javascript:;" class="blog-icons last">
+				  <a href="#" class="blog-icons last">
 					<i class="bi bi-person-check"></i> ${item.job}
 				  </a>
 				  <div class="testim-rating mb-0 float-end">
