@@ -183,26 +183,4 @@ $(window).on('load', function(){
             behavior: 'smooth'
         });
     });
-	
-	/* ========================================================== */
-	/*   PROGRESS BAR                                             */
-	/* ========================================================== */
-	let progress = 0;
-	let progressBar = $('.progress-bar');
-	
-	$('body').addClass('no-scroll');
-
-	let interval = setInterval(function () {
-		progress += 10;
-		progressBar.css('width', progress + '%');
-		progressBar.attr('aria-valuenow', progress);
-
-		if (progress >= 100) {
-			clearInterval(interval);
-			$('#splash-screen').fadeOut(500, function() {
-				$('#main-content').fadeIn(500);
-				$('body').removeClass('no-scroll');
-			});
-		}
-	}, 500);
 });
