@@ -183,4 +183,15 @@ $(window).on('load', function(){
             behavior: 'smooth'
         });
     });
+	
+	
+	/* ========================================================== */
+	/*   Popup-Gallery                                            */
+	/* ========================================================== */	
+	$('.popup-gallery').find('a.popup4').magnificPopup({
+		type: 'iframe',
+		gallery: {
+		  enabled:false
+		}
+	});
 });
