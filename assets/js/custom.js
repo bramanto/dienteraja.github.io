@@ -151,8 +151,9 @@ $(window).on('load', function(){
 
 			if (currentIndex >= allData.length) {
 				document.getElementById('load-more').style.display = 'none';
-				loadingElement.style.display = 'none';
 			}
+			
+			loadingElement.style.display = 'none';
 		}, 3000);
 	}
 
