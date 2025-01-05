@@ -38,20 +38,22 @@ $(window).on('load', function(){
 	/* ========================================================== */
 	
 	$(".navbar-nav li a, a.scrool").on('click', function(e) {		
-		var full_url = this.href;
-		var parts = full_url.split("#");
-		var trgt = parts[1];
-		var target_offset = $("#"+trgt).offset();
-		var target_top = target_offset.top;
+		let full_url = this.href;
+		let parts = full_url.split("#");
+		let trgt = parts[1];
+		let target_offset = $("#"+trgt).offset();
+		let target_top = target_offset.top;
 		
 		$('html,body').animate({scrollTop:target_top -70}, 1000);
 			return false;
 		
 	});	
 	
+	
 	/* ========================================================== */
 	/*   Typing Text                                              */
 	/* ========================================================== */
+	
 	const phrases = [
 		"Selamat Datang",
 		"di",
@@ -78,7 +80,7 @@ $(window).on('load', function(){
 			if (i === phrase.length) {
 				clearInterval(interval);
 				setTimeout(function() {
-					$('#typingText').removeClass('cursor'); // Menghilangkan cursor setelah frasa selesai
+					$('#typingText').removeClass('cursor');
 					currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
 					typePhrase(phrases[currentPhraseIndex], currentPhraseIndex);
 				}, pauseTime[index]);
@@ -162,12 +164,12 @@ $(window).on('load', function(){
 		}, 3000);
 	}
 
-
 	document.getElementById('load-more').addEventListener('click', function() {
 		loadMoreItems('testimoni-container');
 	});
 
 	loadTestimonials('testimoni-container', 'assets/js/testimoni.json');
+	
 	
 	/* ========================================================== */
 	/*   Popover Fact                                             */
@@ -178,9 +180,11 @@ $(window).on('load', function(){
 		return new bootstrap.Popover(popoverTriggerEl, { trigger: 'hover' })
 	});
 	
+	
 	/* ========================================================== */
 	/*   Scroll to Up                                             */
 	/* ========================================================== */
+	
 	const scrollToTopButton = document.querySelector('.scroll-to-top');
 
     window.addEventListener('scroll', () => {
@@ -203,6 +207,7 @@ $(window).on('load', function(){
 	/* ========================================================== */
 	/*   Popup-Gallery                                            */
 	/* ========================================================== */	
+	
 	$('.popup-gallery').find('a.popup4').magnificPopup({
 		type: 'iframe',
 		gallery: {
