@@ -111,42 +111,51 @@ $(window).on('load', function(){
 
 	function loadMoreItems(containerId) {
 		const container = document.getElementById(containerId);
-		const endIndex = Math.min(currentIndex + itemsPerLoad, allData.length);
-		for (let i = currentIndex; i < endIndex; i++) {
-			const item = allData[i];
+		const loadingElement = document.getElementById('loading-testimoni');
+		
+		loadingElement.style.display = 'block';
 
-			const cardHTML = `
-			<div class="col-md-4 col-blog-item">
-			  <div class="blog-item d-flex flex-column">
-				<div class="blog-item-inner">
-				  <h3 class="blog-title">
-					<a href="javascript:;">${item.nama}</a>
-				  </h3>
-				  <a href="#" class="blog-icons last">
-					<i class="bi bi-person-check"></i> ${item.job}
-				  </a>
-				  <div class="testim-rating mb-0 float-end">
-					<i class="bi bi-star-fill"></i>
-					<i class="bi bi-star-fill"></i>
-					<i class="bi bi-star-fill"></i>
-					<i class="bi bi-star-fill"></i>
-					<i class="bi bi-star-fill"></i>
-				</div>
-				  <p class="small">${item.testimoni}</p>
-				</div>
-			  </div>
-			</div>
-		  `;
-		  
-			container.innerHTML += cardHTML;
-		}
+		setTimeout(() => {
+			const endIndex = Math.min(currentIndex + itemsPerLoad, allData.length);
+			
+			for (let i = currentIndex; i < endIndex; i++) {
+				const item = allData[i];
 
-		currentIndex = endIndex;
+				const cardHTML = `
+					<div class="col-md-4 col-blog-item">
+					  <div class="blog-item d-flex flex-column">
+						<div class="blog-item-inner">
+						  <h3 class="blog-title">
+							<a href="javascript:;">${item.nama}</a>
+						  </h3>
+						  <a href="#" class="blog-icons last">
+							<i class="bi bi-person-check"></i> ${item.job}
+						  </a>
+						  <div class="testim-rating mb-0 float-end">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</div>
+						  <p class="small">${item.testimoni}</p>
+						</div>
+					  </div>
+					</div>
+				  `;
+				  
+				container.innerHTML += cardHTML;
+			}
 
-		if (currentIndex >= allData.length) {
-			document.getElementById('load-more').style.display = 'none';
-		}
+			currentIndex = endIndex;
+
+			if (currentIndex >= allData.length) {
+				document.getElementById('load-more').style.display = 'none';
+				loadingElement.style.display = 'none';
+			}
+		}, 3000);
 	}
+
 
 	document.getElementById('load-more').addEventListener('click', function() {
 		loadMoreItems('testimoni-container');
