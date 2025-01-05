@@ -112,8 +112,10 @@ $(window).on('load', function(){
 	function loadMoreItems(containerId) {
 		const container = document.getElementById(containerId);
 		const loadingElement = document.getElementById('loading-testimoni');
+		const btnLoadingElement = document.getElementById('load-more');
 		
 		loadingElement.style.display = 'block';
+		btnLoadingElement.style.display = 'none';
 
 		setTimeout(() => {
 			const endIndex = Math.min(currentIndex + itemsPerLoad, allData.length);
@@ -148,12 +150,15 @@ $(window).on('load', function(){
 			}
 
 			currentIndex = endIndex;
-
-			if (currentIndex >= allData.length) {
-				document.getElementById('load-more').style.display = 'none';
-			}
 			
 			loadingElement.style.display = 'none';
+			
+			if (currentIndex >= allData.length) {
+				btnLoadingElement.style.display = 'none';
+			} else {
+				btnLoadingElement.style.display = 'block';
+			}
+			
 		}, 3000);
 	}
 
