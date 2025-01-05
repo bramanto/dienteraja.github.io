@@ -127,24 +127,26 @@ $(window).on('load', function(){
 
 				const cardHTML = `
 					<div class="col-md-4 col-blog-item">
-					  <div class="blog-item d-flex flex-column">
-						<div class="blog-item-inner">
-						  <h3 class="blog-title">
-							<a href="javascript:;">${item.nama}</a>
-						  </h3>
-						  <a href="#" class="blog-icons last">
-							<i class="bi bi-person-check"></i> ${item.job}
-						  </a>
-						  <div class="testim-rating mb-0 float-end">
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
-							<i class="bi bi-star-fill"></i>
+						<div class="blog-item d-flex flex-column">
+							<div class="blog-item-inner">
+								<h3 class="blog-title mb-0">
+									<a href="javascript:;">${item.nama}</a>
+								</h3>
+								<div>
+									<a href="#" class="blog-icons last">
+										<i class="bi bi-person-check"></i> ${item.job}
+									</a>
+								</div>
+								<p class="small">${item.testimoni}</p>								
+								<div class="testim-rating">
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+								</div>
+							</div>
 						</div>
-						  <p class="small">${item.testimoni}</p>
-						</div>
-					  </div>
 					</div>
 				  `;
 				  
