@@ -163,7 +163,7 @@ $(window).on('load', function(){
 				btnLoadingElement.style.display = 'block';
 			}
 			
-		}, 3000);
+		}, 1500);
 	}
 
 	document.getElementById('load-more').addEventListener('click', function() {
